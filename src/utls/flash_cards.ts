@@ -2,6 +2,7 @@ interface IFlashCard {
   english: string;
   japanese: string;
   note?: string;
+  success?: boolean;
 }
 
 const flashCards: IFlashCard[] = [
